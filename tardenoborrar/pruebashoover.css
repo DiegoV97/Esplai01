@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+    text-align: justify;
+    font-size: large;
+}
+
+p {
+    text-align: right;
+}
+
+p.primerparrafo {
+    background-color: blue;
+    border: 8px solid transparent;
+    width: 50%;
+}
+
+p.segundoparrafo {
+    background-color: blueviolet;
+    margin-left: 50%;
+}
+
+p.tercerparrafo {
+    background-color: darkgoldenrod;
+    width: 50%;
+}
+
+p.primerparrafo:hover {
+    background-color: rgb(131, 88, 2);
+    border-style: dashed;
+    border-color: red;
+}
+
+p.tercerparrafo:hover {
+    border: 8px solid rgb(241, 237, 237);
+    background-color: fuchsia
+}
+
+
+p.segundoparrafo:hover {
+    background-color: darkgreen;
+    border-style: dashed;
+    border-color: red;
+}

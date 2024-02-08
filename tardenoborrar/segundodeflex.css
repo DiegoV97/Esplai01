@@ -1,0 +1,26 @@
+.contenedor {
+    display: flex;
+    text-align: center;
+    width: 800px;
+    margin: auto
+}
+
+.logo {
+    border;
+    border-right: 1px solid grey;
+}
+
+.parrafo {
+    text-align: left;
+    padding-left: 30px;
+}
+
+ol {
+    list-style: none;
+    text-align: left;
+}
+
+img {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}

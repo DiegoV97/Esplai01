@@ -1,0 +1,21 @@
+* {
+    border: 1px solid black;
+}
+
+div {
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+}
+
+.pp {
+    background-color: aqua;
+}
+
+p.pp {
+    font-size: 3rem;
+}
+
+p .green {
+    font-size: 5rem;
+}

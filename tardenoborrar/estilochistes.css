@@ -1,0 +1,75 @@
+div {
+    background-color: rgb(216, 132, 72);
+}
+
+.titulo {
+    font-size: 2rem;
+    margin: auto;
+    background-color: chocolate;
+    color: white;
+    text-align: center;
+}
+
+.sub {
+    text-align: right
+}
+
+span {
+    font-weight: bold
+}
+
+p {
+    text-align: right;
+    margin-bottom: 30px;
+
+}
+
+.primero {
+    border-style: dashed;
+    background-color: chartreuse;
+    border-color: crimson;
+    width: 50%;
+
+}
+
+.segundo {
+    border-style: double;
+    background-color: aqua;
+    border-color: indigo;
+    margin-left: 50%;
+}
+
+.tercero {
+    border-style: dashed;
+    background-color: greenyellow;
+    border-color: darkred;
+    width: 50%;
+}
+
+.cuarto {
+    border-style: dotted;
+    border-color: darkseagreen;
+    background-color: darkviolet;
+    margin-left: 50%;
+}
+
+.quinto {
+    border-style: dashed;
+    border-color: gold;
+    background-color: gray;
+    width: 50%;
+}
+
+.sexto {
+    border-style: double;
+    border-color: coral;
+    background-color: darkslateblue;
+    margin-left: 50%;
+}
+
+.septimo {
+    border-color: violet;
+    border-style: dashed;
+    background-color: yellowgreen;
+    width: 50%;
+}

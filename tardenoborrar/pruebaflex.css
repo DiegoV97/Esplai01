@@ -1,0 +1,11 @@
+.fondo {
+    background-image: url(./bg.jpg);
+    width: 750px;
+    height: 571px;
+    display: flex;
+    margin: auto;
+}
+
+p {
+    padding: 20px;
+}
