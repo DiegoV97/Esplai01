@@ -1,0 +1,29 @@
+.uno {
+    width: 800px;
+    border-width: 35px;
+    border-image: url(./mundo.svg);
+    border-style: solid;
+    margin: auto
+}
+
+.dos {
+    width: 800px;
+    border-width: 35px;
+    border-style: solid;
+    border-image: url(./borderrombo.png) 30 30 stretch;
+    margin: auto
+}
+
+.tres {
+    border-image: url(./borderrombo.png) 30 30 round;
+    border-width: 35px;
+    border-style: solid;
+    margin: auto
+}
+
+.cuatro {
+    border-image: url(#) 50 50 stretch;
+    border-width: 50px;
+    border-style: solid;
+    margin: auto
+}

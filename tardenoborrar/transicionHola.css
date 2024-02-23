@@ -1,0 +1,23 @@
+div {
+    margin: auto;
+    width: 700px;
+    height: 700px;
+
+}
+
+h1 {
+    padding-top: 30px;
+    text-shadow: 50px -32px 0px blue,
+        50px 50px 0px red,
+        -50px 50px 0px rgb(0, 255, 13),
+        -50px -32px 0px yellow;
+    transition: 2s;
+}
+
+h1:hover {
+    text-shadow: -50px 50px 0px rgb(0, 179, 255),
+        -50px -32px 0px rgb(171, 14, 119),
+        50px -32px 0px rgb(255, 159, 15),
+        50px 50px 0px rgb(0, 240, 128);
+    transition: 2s;
+}

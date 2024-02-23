@@ -1,0 +1,34 @@
+.ejercicio {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    transition: 1s;
+    background: black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+
+}
+
+p {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    font-weight: bold;
+    color: rgb(247, 245, 245);
+    transition: 1s;
+    padding-top: 70px;
+}
+
+.ejercicio:hover p {
+    opacity: 1;
+}
+
+img:hover {
+    opacity: 0.5;
+}

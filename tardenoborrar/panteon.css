@@ -1,0 +1,33 @@
+.container {
+    background-image: url(./panteon.jpg);
+    width: 722px;
+    height: 480px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.coldos {
+
+    width: 50px;
+    height: 150px;
+    overflow: auto;
+    margin-top: 200px;
+
+}
+
+.coluno {
+    width: 50px;
+    height: 150px;
+    overflow: auto;
+    margin-top: 200px;
+
+}
+
+.coltres {
+    width: 50px;
+    height: 150px;
+    overflow: auto;
+    margin-top: 200px;
+}

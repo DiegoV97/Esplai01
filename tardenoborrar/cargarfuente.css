@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Ejemploclase;
+    src: url(./fuente.ttf)
+}
+
+h1 {
+    font-family: Ejemploclase;
+}
+
+@font-face {
+    font-family: Versatyl;
+    src: url(./VersatyloRoundedPersonalUseOnly.ttf)
+}
+
+h2 {
+    font-family: Versatyl;
+}

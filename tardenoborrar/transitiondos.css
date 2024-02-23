@@ -1,0 +1,14 @@
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    transition: width 0.5s, height 0.5s, font-size 2s;
+
+}
+
+.container:hover {
+    background-color: violet;
+    font-size: 25rem;
+    width: 800px;
+    height: 800px;
+}
