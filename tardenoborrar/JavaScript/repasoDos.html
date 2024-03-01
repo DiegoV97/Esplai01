@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const usuario = Number(prompt('Introduce un numero'))
+
+
+        const max = 5
+        const min = 1
+        const numRandom = Math.floor(Math.random() * (max - min) + min)
+        alert('La pagina saca un ' + numRandom);
+
+        if (usuario == numRandom) {
+            alert('correcto')
+        } else {
+            alert('incorrecto')
+        }
+
+
+
+    </script>
+</body>
+
+</html>

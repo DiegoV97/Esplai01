@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const max = 5
+        const min = 1
+
+        const respuesta = Math.floor(Math.random() * (max - min) + min)
+
+        let vida = 0
+        while (vida < 3) {
+            const valorUsuario = Number(prompt('Introduce numero'))
+
+
+            vida++;
+
+            if (valorUsuario == respuesta) {
+                alert('correcto'); vida = 3;
+            } else {
+                alert('sigue probando')
+
+            }
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
